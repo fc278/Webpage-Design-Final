@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hampshire College</title>
+	<link rel="stylesheet" type="text/css" href="resources/css/style.css">
+ <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Cinzel">
+
+</head>
+<body class="contact-background">
+	
+	<nav id="navbar">
+		<img id="logo" src="resources/images/logo.png" height="50px">
+		<div class="dropdown">
+	  	<button onclick="myFunction()" class="dropbtn">Menu</button>
+	 	<div id="myDropdown" class="dropdown-content">
+	 		<a href="index.html">Home</a>
+		   	<a href="resources.html">Resources</a>
+		    <a href="academics.html">Academics</a>
+		    <a href="contact.html">Contact</a>
+  		</div>
+	</div>
+	</nav>
+	  <style>
+      body {
+        font-family: 'Cinzel', serif;
+    }
+    </style>
+
+<!-- text to showcase the footer/header stay at the top and bottom of the page --><div>
+<h3 id = "contactForm"> Contact Form </h3>
+
+<p id = "contactUs"> Questions? Comments? Concerns?
+	Please contact us at 413.549.4600, or fill out this form and we will get back to you as soon as possible! </p></div>
+
+
+<!-- HTML for submission form from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_contact_form -->
+<div class="container2">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..." required>
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..." required>
+
+    <label for="email">E-mail</label>
+    <input type="text" id="email" name="email" placeholder="Your email..." required>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Questions, comments, concerns" style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+<!-- end of submission form -->
+
+
+ <!--Footer with basic social media links, open in new tab. Stays at bottom-->
+ <!-- &emsp; is a simple spacer (in line white space) but it breaks with Safari browser?-->
+ <div id="footer">
+	<p>
+<a href="https://www.facebook.com/hampshirecollege" target="_blank"><strong>Facebook</strong></a>&emsp;&emsp;&emsp;&emsp;&emsp;
+<a href="https://www.instagram.com/hampshirecollege/" target="_blank"><strong>Instagram</strong></a>&emsp;&emsp;&emsp;&emsp;&emsp;
+<a href="https://www.youtube.com/user/hampshireTV" target="_blank"><strong>Youtube</strong>
+</a>
+</p>
+	</div>
+<script type="text/javascript" src="resources/js/script.js"></script>
+
+
+
+</body>
+</html>
